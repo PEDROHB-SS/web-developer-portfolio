@@ -187,6 +187,8 @@ a { color: var(--ink); }
 .bar { width: 100%; height: var(--h); background: var(--ink); border-radius: 2px; }
 .bar.accent { background: var(--coral); }
 .bar.ghost { background: transparent; border: 1px dashed var(--ink); }
+/* Bar heights as classes (was inline style="--h"), so the CSP can forbid inline styles. */
+.h-30 { --h: 30%; } .h-45 { --h: 45%; } .h-70 { --h: 70%; } .h-85 { --h: 85%; } .h-100 { --h: 100%; }
 .day b { font-size: .8rem; color: var(--muted); }
 .week-note { font-size: .92rem; color: var(--text); margin: 0; }
 @media (min-width: 900px) {

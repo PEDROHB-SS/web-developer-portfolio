@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'sha256-/x7W7R75k8Roq0WaVRQX9blP4OufE5xbAdzklGxsgpw='; style-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tidewell | A calm daily planner</title>
   <meta name="description" content="Tidewell is a fictional daily planner concept: pick three things that matter, focus on them, and close the day cleanly. Demo project with an interactive sample.">
@@ -218,11 +219,11 @@
             <div class="panel-ui" aria-hidden="true">
               <p class="panel-title">Weekly review</p>
               <div class="week">
-                <div class="day"><span class="bar" style="--h:70%"></span><b>M</b></div>
-                <div class="day"><span class="bar" style="--h:100%"></span><b>T</b></div>
-                <div class="day"><span class="bar" style="--h:45%"></span><b>W</b></div>
-                <div class="day"><span class="bar accent" style="--h:85%"></span><b>T</b></div>
-                <div class="day"><span class="bar ghost" style="--h:30%"></span><b>F</b></div>
+                <div class="day"><span class="bar h-70"></span><b>M</b></div>
+                <div class="day"><span class="bar h-100"></span><b>T</b></div>
+                <div class="day"><span class="bar h-45"></span><b>W</b></div>
+                <div class="day"><span class="bar accent h-85"></span><b>T</b></div>
+                <div class="day"><span class="bar ghost h-30"></span><b>F</b></div>
               </div>
               <p class="week-note">Most priorities finished on Tuesdays. Plan the big one there.</p>
             </div>
