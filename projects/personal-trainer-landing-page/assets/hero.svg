@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 760" width="640" height="760" role="img" aria-labelledby="t"><title id="t">Geometric athlete lifting a barbell overhead</title>
+<rect width="640" height="760" fill="#0e1726"/>
+<polygon points="0,520 640,300 640,760 0,760" fill="#16233a"/>
+<circle cx="360" cy="330" r="230" fill="#c6f432"/>
+<rect x="0" y="640" width="640" height="14" fill="#c6f432"/>
+<!-- barbell -->
+<rect x="40" y="108" width="560" height="14" fill="#f4f2ec"/>
+<rect x="70" y="40" width="34" height="150" fill="#f4f2ec"/><rect x="108" y="58" width="26" height="114" fill="#c6f432"/><rect x="138" y="72" width="18" height="86" fill="#f4f2ec"/>
+<rect x="536" y="40" width="34" height="150" fill="#f4f2ec"/><rect x="506" y="58" width="26" height="114" fill="#c6f432"/><rect x="484" y="72" width="18" height="86" fill="#f4f2ec"/>
+<!-- athlete -->
+<g fill="#0b0d10">
+<circle cx="320" cy="214" r="38"/>
+<polygon points="262,252 378,252 366,266 340,420 300,420 274,266"/>
+<polygon points="262,258 236,132 262,128 290,262"/>
+<polygon points="378,258 404,132 378,128 350,262"/>
+<polygon points="298,414 342,414 372,640 330,640 320,500 306,640 266,640"/>
+<polygon points="266,640 330,640 330,654 250,654"/>
+<polygon points="320,640 376,640 392,654 320,654"/>
+</g>
+<polygon points="262,252 378,252 370,300 270,300" fill="#f4f2ec"/>
+<polygon points="0,0 120,0 0,200" fill="#c6f432"/>
+<g fill="#f4f2ec"><rect x="470" y="660" width="120" height="10"/><rect x="500" y="680" width="90" height="10"/><rect x="530" y="700" width="60" height="10"/></g>
+</svg>

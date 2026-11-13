@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 460" width="600" height="460" role="img" aria-labelledby="t"><title id="t">Pair of training shoes, side view</title>
+<rect width="600" height="460" fill="#c6f432"/><polygon points="0,330 600,230 600,460 0,460" fill="#0b0d10"/>
+<g>
+<path d="M60 250 Q60 160 120 150 L190 150 Q210 190 260 200 L330 215 Q390 225 400 270 V300 H60Z" fill="#0e1726"/>
+<path d="M60 300 H400 V326 Q400 340 380 340 H80 Q60 340 60 322Z" fill="#f4f2ec"/>
+<path d="M200 170 L230 190 M225 160 L255 182 M250 152 L280 175" stroke="#c6f432" stroke-width="8" stroke-linecap="round"/>
+<path d="M100 230 L260 262" stroke="#c6f432" stroke-width="14" stroke-linecap="round"/>
+</g>
+<g transform="translate(150 70) scale(.8)">
+<path d="M300 250 Q300 160 360 150 L430 150 Q450 190 500 200 L570 215 Q630 225 640 270 V300 H300Z" fill="#f4f2ec"/>
+<path d="M300 300 H640 V326 Q640 340 620 340 H320 Q300 340 300 322Z" fill="#c6f432"/>
+<path d="M340 230 L500 262" stroke="#0e1726" stroke-width="14" stroke-linecap="round"/>
+</g>
+</svg>

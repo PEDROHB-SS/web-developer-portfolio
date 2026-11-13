@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" fill="none" stroke="#b8864b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect width="800" height="600" fill="#1b1917" stroke="none"/><rect x="24" y="24" width="752" height="552" stroke-width="1" opacity=".55"/>
+<path d="M300 200c0-24 6-40 6-60v-20h68v20c0 20 6 36 6 60 40 20 50 60 50 100v170c0 22-16 38-38 38h-104c-22 0-38-16-38-38V300c0-40 10-80 50-100z" fill="#2a2622" transform="translate(-30 0)"/>
+<rect x="306" y="96" width="68" height="28" rx="6" fill="#b8864b" transform="translate(-30 0)"/>
+<rect x="244" y="310" width="132" height="120" rx="6" fill="#121110" stroke-width="1.5"/>
+<path d="M270 350h80M270 370h80M286 396h48" stroke="#efe7d8" stroke-width="2" opacity=".7"/>
+<path d="M240 250c10-10 20-16 30-18" stroke="#efe7d8" opacity=".5"/>
+<g transform="translate(0 0)">
+<path d="M470 380h220v110H470z" fill="#efe7d8" stroke="none" opacity=".95"/>
+<path d="M470 380h220v110H470zM470 410h220M470 440h220M470 470h220" />
+<path d="M470 380c20-26 60-26 80 0" /><path d="M560 380c14-18 38-18 52 0" opacity=".6"/>
+<path d="M500 345c10-14-10-22 0-36s-10-22 0-34M545 345c10-14-10-22 0-36s-10-22 0-34M590 345c10-14-10-22 0-36s-10-22 0-34" stroke-width="2" opacity=".6"/>
+</g>
+<path d="M130 520h560" opacity=".5"/>
+</svg>

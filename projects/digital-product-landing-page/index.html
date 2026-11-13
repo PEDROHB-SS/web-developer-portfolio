@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tidewell | A calm daily planner</title>
+  <meta name="description" content="Tidewell is a fictional daily planner concept: pick three things that matter, focus on them, and close the day cleanly. Demo project with an interactive sample.">
+  <meta name="theme-color" content="#0f3b3f">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tidewell | A calm daily planner">
+  <meta property="og:description" content="Pick three things that matter, focus on them, and close the day cleanly. A demo landing page for a fictional product.">
+  <meta property="og:image" content="assets/og-image.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Tidewell, back to top">
+        <img src="assets/logo-wordmark.svg" alt="Tidewell" width="140" height="33">
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#problem">The problem</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#how-it-works">How it works</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <a class="btn btn-small btn-accent" href="#demo-notice" data-demo-cta>Join the waitlist (demo)</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">A calm daily planner</p>
+          <h1 id="hero-title">Pick three things. <span class="serif">Close the day</span> clean.</h1>
+          <p class="lead">Tidewell keeps your day small on purpose. Choose the few things that matter, focus on one at a time, and end with a short review instead of a guilty pile of leftovers.</p>
+          <div class="cta-row">
+            <a class="btn btn-accent" href="#demo-notice" data-demo-cta>Join the waitlist (demo)</a>
+            <a class="btn btn-ghost" href="#how-it-works">Try the sample day</a>
+          </div>
+          <p class="fine">Demo project. This is a fictional product, so there is nothing to sign up for.</p>
+        </div>
+
+        <div class="hero-visual">
+          <div class="app-window" role="img" aria-label="Mockup of the Tidewell Today view showing three priorities, one of them completed, and a running focus session.">
+            <div class="app-body" aria-hidden="true">
+              <div class="app-head">
+                <div>
+                  <p class="app-date">Thursday, 24 October</p>
+                  <p class="app-title">Today</p>
+                </div>
+                <div class="mini-ring"><svg viewBox="0 0 44 44" width="44" height="44"><circle cx="22" cy="22" r="18" fill="none" stroke="#dcd3c2" stroke-width="5"/><circle cx="22" cy="22" r="18" fill="none" stroke="#0f3b3f" stroke-width="5" stroke-linecap="round" stroke-dasharray="113.1" stroke-dashoffset="75.4" transform="rotate(-90 22 22)"/></svg><span>1/3</span></div>
+              </div>
+              <ul class="mock-list">
+                <li class="done"><span class="mock-check"></span>Send the project outline</li>
+                <li><span class="mock-check"></span>Draft the Q4 summary <em>45 min</em></li>
+                <li><span class="mock-check"></span>Book the dentist <em>5 min</em></li>
+              </ul>
+              <p class="mock-focus"><span class="chip-dot"></span>Focusing: Draft the Q4 summary <em>24:10 left</em></p>
+              <p class="mock-later">Later this week <strong>7</strong></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBLEM -->
+    <section class="problem" id="problem" aria-labelledby="problem-title">
+      <div class="container problem-grid">
+        <div class="problem-head">
+          <p class="eyebrow">The problem</p>
+          <h2 id="problem-title">Most days end with more list than you started with.</h2>
+        </div>
+        <div class="problem-body">
+          <p class="big">You have a list for work, another for home, a third in your notes app, and a fourth in your head. Every list is reasonable. Together they are a lot of places to check.</p>
+          <p>So you check them all. Each time you switch, a little attention is left behind on the last list. By the afternoon you have been busy for hours and cannot say what actually moved forward.</p>
+          <p>Then the day ends without an ending. Half-finished tasks drift into tomorrow, nothing is ever marked as enough, and the next morning starts with a longer list than the one before.</p>
+          <ul class="leaks">
+            <li><strong>Too many lists.</strong> Every place you capture a task is another place you have to look.</li>
+            <li><strong>Constant switching.</strong> Jumping between tasks and tools makes each one slower and more tiring.</li>
+            <li><strong>Unfinished days.</strong> Without a clear stopping point, the work never feels done.</li>
+          </ul>
+          <p class="big-end">Tidewell is built around one idea: <span class="serif">a day should be small enough to finish.</span></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features" id="features" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Benefits and features</p>
+          <h2 id="features-title">Three habits, built into the way the app works.</h2>
+        </div>
+
+        <article class="feature-row">
+          <div class="feature-text">
+            <h3>Choose what matters, then let the rest wait.</h3>
+            <p>Capture everything in one inbox. Each morning, Tidewell asks you to pick three priorities. Everything else stays out of sight until you look for it.</p>
+            <ul class="ticks">
+              <li>One inbox instead of many lists</li>
+              <li>A gentle limit of three priorities per day</li>
+              <li>A "later this week" shelf for the rest</li>
+            </ul>
+          </div>
+          <div class="feature-visual" aria-hidden="true">
+            <div class="vis-pick">
+              <p class="vis-label">Inbox <span>12</span></p>
+              <ul>
+                <li class="faded">Renew parking permit</li>
+                <li class="chosen">Draft the Q4 summary</li>
+                <li class="faded">Compare laptop stands</li>
+                <li class="chosen">Send the project outline</li>
+                <li class="faded">Reply to the venue</li>
+                <li class="chosen">Book the dentist</li>
+                <li class="faded">Tidy the shared folder</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature-row reverse">
+          <div class="feature-text">
+            <h3>One task on screen at a time.</h3>
+            <p>When you start working, the rest of the day fades back. A simple timer holds your attention on a single priority, with short breaks built in so you can actually keep going.</p>
+            <ul class="ticks">
+              <li>Focus sessions of 25, 45 or 60 minutes</li>
+              <li>Only the current task is visible</li>
+              <li>Quiet, optional reminders to take a break</li>
+            </ul>
+          </div>
+          <div class="feature-visual" aria-hidden="true">
+            <div class="vis-limits">
+              <p class="vis-label">Today's slots</p>
+              <div class="slots"><span class="slot full"></span><span class="slot full"></span><span class="slot"></span></div>
+              <p class="vis-note">Two priorities in progress. One slot left.</p>
+              <img src="assets/tide-lines.svg" alt="" width="400" height="160" aria-hidden="true" loading="lazy">
+            </div>
+          </div>
+        </article>
+
+        <article class="feature-row feature-row-end">
+          <div class="feature-text">
+            <h3>An actual ending to the day.</h3>
+            <p>In the evening, a two-minute close-out shows what you finished, lets you move or drop what you did not, and marks the day as complete. Then you are allowed to stop.</p>
+            <ul class="ticks">
+              <li>Decide what moves, what waits and what goes</li>
+              <li>See the day as finished, not as a debt</li>
+              <li>A weekly review that shows patterns, not scores</li>
+            </ul>
+          </div>
+          <div class="feature-visual" aria-hidden="true">
+            <div class="vis-close">
+              <p class="vis-label">Close the day</p>
+              <ul>
+                <li><span class="tick-ok"></span>Send the project outline <em>Done</em></li>
+                <li><span class="tick-ok"></span>Draft the Q4 summary <em>Done</em></li>
+                <li><span class="tick-move"></span>Book the dentist <em>Move to Friday</em></li>
+              </ul>
+              <p class="vis-button">Day closed</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- INTERFACE BAND -->
+    <section class="band" aria-labelledby="band-title">
+      <div class="container">
+        <div class="section-head on-dark">
+          <p class="eyebrow">A look around</p>
+          <h2 id="band-title">Three screens. That is most of the app.</h2>
+          <p class="lead">These are illustrative interface mockups built in HTML and CSS, not screenshots of a shipping product.</p>
+        </div>
+
+        <div class="band-grid">
+          <figure class="panel panel-today" role="group" aria-labelledby="cap-today">
+            <div class="panel-ui" aria-hidden="true">
+              <p class="panel-title">Today</p>
+              <ul class="mock-list">
+                <li class="done"><span class="mock-check"></span>Send the project outline</li>
+                <li class="done"><span class="mock-check"></span>Draft the Q4 summary</li>
+                <li><span class="mock-check"></span>Book the dentist</li>
+              </ul>
+              <p class="mock-later">Later this week <strong>7</strong></p>
+            </div>
+            <figcaption id="cap-today"><strong>Today.</strong> Three priorities and nothing else.</figcaption>
+          </figure>
+
+          <figure class="panel panel-timer" role="group" aria-labelledby="cap-timer">
+            <div class="panel-ui timer-ui" aria-hidden="true">
+              <p class="panel-title">Focus</p>
+              <div class="timer-ring">
+                <svg viewBox="0 0 120 120" width="120" height="120"><circle cx="60" cy="60" r="52" fill="none" stroke="#dcd3c2" stroke-width="8"/><circle cx="60" cy="60" r="52" fill="none" stroke="#c0432a" stroke-width="8" stroke-linecap="round" stroke-dasharray="326.7" stroke-dashoffset="130" transform="rotate(-90 60 60)"/></svg>
+                <span>24:10</span>
+              </div>
+              <p class="timer-task">Draft the Q4 summary</p>
+              <p class="timer-sub">Session 1 of 2</p>
+            </div>
+            <figcaption id="cap-timer"><strong>Focus timer.</strong> One task, one clock.</figcaption>
+          </figure>
+
+          <figure class="panel panel-week" role="group" aria-labelledby="cap-week">
+            <div class="panel-ui" aria-hidden="true">
+              <p class="panel-title">Weekly review</p>
+              <div class="week">
+                <div class="day"><span class="bar" style="--h:70%"></span><b>M</b></div>
+                <div class="day"><span class="bar" style="--h:100%"></span><b>T</b></div>
+                <div class="day"><span class="bar" style="--h:45%"></span><b>W</b></div>
+                <div class="day"><span class="bar accent" style="--h:85%"></span><b>T</b></div>
+                <div class="day"><span class="bar ghost" style="--h:30%"></span><b>F</b></div>
+              </div>
+              <p class="week-note">Most priorities finished on Tuesdays. Plan the big one there.</p>
+            </div>
+            <figcaption id="cap-week"><strong>Weekly review.</strong> Patterns, not scores.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS + DEMO -->
+    <section class="how" id="how-it-works" aria-labelledby="how-title">
+      <div class="container how-grid">
+        <div class="how-steps">
+          <p class="eyebrow">How it works</p>
+          <h2 id="how-title">A four-step day, <span class="serif">start to finish.</span></h2>
+          <ol class="steps">
+            <li><span class="step-num" aria-hidden="true">1</span><div><h3>Capture</h3><p>Drop tasks into one inbox as they come up. No sorting required.</p></div></li>
+            <li><span class="step-num" aria-hidden="true">2</span><div><h3>Pick three</h3><p>Each morning, choose the priorities that make the day a good one.</p></div></li>
+            <li><span class="step-num" aria-hidden="true">3</span><div><h3>Focus</h3><p>Work on one priority at a time with a simple timer.</p></div></li>
+            <li><span class="step-num" aria-hidden="true">4</span><div><h3>Close</h3><p>Review, move what is left, and end the day on purpose.</p></div></li>
+          </ol>
+        </div>
+
+        <div class="demo" id="demo" aria-labelledby="demo-title">
+          <p class="demo-badge">Interactive demo — sample data, nothing is saved</p>
+          <h3 id="demo-title" class="demo-title">Try a sample day</h3>
+          <div class="demo-top">
+            <div class="ring" data-ring>
+              <svg viewBox="0 0 120 120" width="120" height="120" aria-hidden="true">
+                <circle cx="60" cy="60" r="52" fill="none" stroke="#dcd3c2" stroke-width="10"/>
+                <circle class="ring-fill" cx="60" cy="60" r="52" fill="none" stroke="#0f3b3f" stroke-width="10" stroke-linecap="round" stroke-dasharray="326.73" stroke-dashoffset="326.73" transform="rotate(-90 60 60)"/>
+              </svg>
+              <span class="ring-label" data-ring-label>0 of 3</span>
+            </div>
+            <p class="demo-status" data-demo-status aria-live="polite">Tick a priority when it is done. The ring keeps count.</p>
+          </div>
+          <fieldset class="demo-list">
+            <legend>Today's priorities</legend>
+            <label class="task"><input type="checkbox" data-priority> <span>Send the project outline</span></label>
+            <label class="task"><input type="checkbox" data-priority> <span>Draft the Q4 summary</span></label>
+            <label class="task"><input type="checkbox" data-priority> <span>Book the dentist</span></label>
+          </fieldset>
+          <fieldset class="demo-list demo-later">
+            <legend>Later this week (not counted today)</legend>
+            <label class="task"><input type="checkbox"> <span>Compare laptop stands</span></label>
+            <label class="task"><input type="checkbox"> <span>Tidy the shared folder</span></label>
+          </fieldset>
+          <button class="btn btn-ghost btn-small" type="button" data-demo-reset>Reset sample</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="pricing" id="pricing" aria-labelledby="pricing-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Pricing</p>
+          <h2 id="pricing-title">Illustrative plans, simple on purpose.</h2>
+          <p class="lead">These prices are made up for the demo. No payment is taken anywhere on this page.</p>
+        </div>
+
+        <div class="billing-toggle" role="group" aria-label="Billing period" data-billing hidden>
+          <button type="button" aria-pressed="true" data-period="monthly">Monthly</button>
+          <button type="button" aria-pressed="false" data-period="yearly">Yearly <span class="save">save about 25%</span></button>
+        </div>
+
+        <div class="plans">
+          <article class="plan">
+            <h3>Free</h3>
+            <p class="plan-for">For trying the daily rhythm.</p>
+            <p class="price"><span class="amount">$0</span><span class="per">forever</span></p>
+            <p class="billed">&nbsp;</p>
+            <ul class="ticks">
+              <li>One inbox, three daily priorities</li>
+              <li>Basic focus timer</li>
+              <li>Day close-out</li>
+            </ul>
+            <a class="btn btn-ghost" href="#demo-notice" data-demo-cta>Join the waitlist (demo)</a>
+          </article>
+
+          <article class="plan plan-featured">
+            <p class="plan-flag">Most balanced</p>
+            <h3>Plus</h3>
+            <p class="plan-for">For people who plan their own week.</p>
+            <p class="price"><span class="amount" data-monthly="$8" data-yearly="$6">$8</span><span class="per">per month</span></p>
+            <p class="billed" data-billed data-monthly="Billed monthly" data-yearly="$72 billed once a year">Billed monthly</p>
+            <ul class="ticks">
+              <li>Everything in Free</li>
+              <li>Weekly review and patterns</li>
+              <li>Custom focus sessions</li>
+              <li>Sync across devices</li>
+            </ul>
+            <a class="btn btn-accent" href="#demo-notice" data-demo-cta>Join the waitlist (demo)</a>
+          </article>
+
+          <article class="plan">
+            <h3>Team</h3>
+            <p class="plan-for">For small teams who share a rhythm.</p>
+            <p class="price"><span class="amount" data-monthly="$14" data-yearly="$11">$14</span><span class="per">per person, per month</span></p>
+            <p class="billed" data-billed data-monthly="Billed monthly" data-yearly="$132 per person, billed yearly">Billed monthly</p>
+            <ul class="ticks">
+              <li>Everything in Plus</li>
+              <li>Shared team week view</li>
+              <li>Admin controls</li>
+            </ul>
+            <a class="btn btn-ghost" href="#demo-notice" data-demo-cta>Join the waitlist (demo)</a>
+          </article>
+        </div>
+        <p class="fine plans-note">Illustrative pricing for a fictional product.</p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-grid">
+        <div>
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title">Questions, answered plainly.</h2>
+          <img class="faq-tide" src="assets/tide-lines.svg" alt="" width="400" height="160" aria-hidden="true" loading="lazy">
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>Is Tidewell a real product?</summary>
+            <p>No. Tidewell is a fictional product made for this portfolio demo. The page shows how a product landing page can be designed and built, and nothing here can be downloaded or purchased.</p>
+          </details>
+          <details>
+            <summary>Why only three priorities?</summary>
+            <p>Three is small enough to finish and large enough to matter. It is a gentle default, and the idea is that choosing less makes the day feel more achievable.</p>
+          </details>
+          <details>
+            <summary>What happens to tasks I do not finish?</summary>
+            <p>During the evening close-out you decide for each one: move it to another day, put it back on the shelf, or let it go. Nothing quietly piles up.</p>
+          </details>
+          <details>
+            <summary>Does the sample demo save my data?</summary>
+            <p>No. The interactive demo on this page runs in your browser only. Nothing is stored or sent anywhere, and reloading the page resets it.</p>
+          </details>
+          <details>
+            <summary>Are the prices and features final?</summary>
+            <p>They are illustrative. A real project would replace them with the actual plans and connect the buttons to a signup or checkout provider.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final" aria-labelledby="final-title">
+      <div class="container final-inner">
+        <h2 id="final-title">Ready for a <span class="serif">smaller, calmer</span> day?</h2>
+        <div class="final-side">
+          <p>This is where a real product would invite you in. Here, the button explains what a real integration would do.</p>
+          <a class="btn btn-accent" href="#demo-notice" data-demo-cta>Join the waitlist (demo)</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <img src="assets/logo-mark.svg" alt="" width="36" height="36" aria-hidden="true" loading="lazy">
+        <p id="demo-notice" class="footer-note">Demo project — fictional product. Pricing and features are illustrative.</p>
+        <p class="footer-sub">This is a demonstration page. In a real project, the waitlist and plan buttons would connect to your signup or checkout provider.</p>
+      </div>
+      <nav class="footer-links" aria-label="Footer">
+        <a href="#top">Back to top</a>
+        <a href="../../index.html">Back to portfolio</a>
+      </nav>
+    </div>
+    <p class="container copyright">&copy; <span data-year>2026</span> Tidewell demo. Built with HTML, CSS and vanilla JavaScript.</p>
+  </footer>
+
+  <!-- Demo dialog.
+       INTEGRATION POINT: in a real project, replace the dialog opening in script.js
+       (see "openDemoDialog") with a call to your signup form, waitlist API or
+       checkout provider. -->
+  <dialog id="demo-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-text">
+    <h2 id="dialog-title">Demonstration only</h2>
+    <p id="dialog-text">This is a demonstration page. In a real project this button would connect to your signup or checkout provider.</p>
+    <form method="dialog">
+      <button class="btn btn-accent" value="close">Close</button>
+    </form>
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

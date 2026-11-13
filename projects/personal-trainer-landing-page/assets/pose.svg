@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600" role="img" aria-labelledby="t"><title id="t">Silhouettes of a bodyweight squat and a plank</title>
+<rect width="600" height="600" fill="#f4f2ec"/><rect x="0" y="0" width="600" height="300" fill="#0e1726"/>
+<circle cx="170" cy="150" r="110" fill="#c6f432"/>
+<g fill="#0b0d10"><circle cx="150" cy="96" r="22"/>
+<polygon points="128,124 176,124 200,214 168,224 150,170 138,176"/>
+<polygon points="200,212 250,228 262,246 196,250 170,228"/>
+<polygon points="150,236 200,236 214,330 184,330 170,274 120,330 96,330 126,252"/>
+<polygon points="176,130 250,138 252,152 172,150"/></g>
+<g fill="#0b0d10"><circle cx="458" cy="396" r="20"/>
+<polygon points="380,430 440,408 450,420 392,452"/>
+<polygon points="380,430 150,468 150,486 380,456"/>
+<polygon points="440,414 456,414 460,500 440,500"/>
+<polygon points="150,468 134,500 150,500 170,478"/></g>
+<rect x="60" y="500" width="480" height="12" fill="#0b0d10"/>
+<rect x="60" y="530" width="300" height="12" fill="#c6f432"/>
+</svg>
