@@ -66,7 +66,9 @@ p { margin: 0 0 1em; }
 /* Hero */
 .hero { padding: 36px 0 72px; position: relative; overflow: hidden; }
 .hero-grid { display: grid; gap: 36px; align-items: center; }
-.hero h1 .mark { background: var(--signal); padding: 0 .12em; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+/* Highlight sized to the capital letters (not the font's full line box), with even padding above and below.
+   The right edge is cut on the same diagonal language as the hero image and the About divider. */
+.hero h1 .mark { display: inline-block; line-height: 0.8; padding: 0.09em 0.18em 0.09em 0.13em; background: var(--signal); clip-path: polygon(0 0, 100% 0, calc(100% - 0.1em) 100%, 0 100%); }
 .lead { font-size: 1.2rem; max-width: 34em; margin-top: 22px; color: var(--muted); }
 .demo-note { font-size: 0.85rem; font-weight: 700; color: var(--muted); border-left: 4px solid var(--ink); padding-left: 10px; }
 .hero-art { background: var(--navy); clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%); }

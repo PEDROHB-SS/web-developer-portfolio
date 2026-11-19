@@ -46,4 +46,25 @@ web-developer-portfolio/
 │   ├── personal-trainer-landing-page/
 │   └── digital-product-landing-page/
 ├── index.html
-├── style
+├── style.css
+├── script.js
+└── README.md
+```
+
+## Security
+
+The project uses Content Security Policy (CSP) to restrict the execution of scripts and the loading of external resources.
+
+Security measures are designed for a static website hosted on GitHub Pages. Some HTTP security headers cannot be configured directly through this hosting service.
+
+## About the Projects
+
+The three landing pages are fictional concepts developed for portfolio and practice purposes. They do not represent real clients or commercial projects.
+
+## Contact
+
+- **GitHub:** [PEDROHB-SS](https://github.com/PEDROHB-SS)
+
+---
+
+*Designed and developed by Pedro Henrique.*
